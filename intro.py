@@ -16,12 +16,12 @@ while x < 20:
     x += 1
 
 ######## Estrutura de repetição: for ########
-
+# uma imagem é uma matrix: lista dentro de lista
 for i in range(0, 10): #comando importante para detecção de cor!
     print(i)
 
 ######## Listas ########
-# em python não tem array, tem listas direto como no exemplo abaixo:
+
 x = [1, 2, 3, 4, 5] # a lista não quantidade máxima de termos
 x.append(10) #inclui o valor 10 na última posição
 print(x)
@@ -33,7 +33,6 @@ print(x[:3]) # printa três posições da lista
 print(x[::2]) # printa valores de dois em dois
 print(x[::-1]) # printa de trás para frente => função inversa
 
-# uma imagem é uma matrix: lista dentro de lista
 # ex=> corte de uma imagem => print(x[2:4])
 
 
